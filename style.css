@@ -1,0 +1,43 @@
+body {
+  background: #87cfd3;
+ 
+}
+img {
+  width: 291px;
+   
+   
+}
+form {
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  input, select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .text-center {
+    text-align: center;
+  }

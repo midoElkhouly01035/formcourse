@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+  
+<center>  <img src="logo.png"></center>
+
+    <form action="create_account.php" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone_number">Phone_Number:</label>
+        <input type="text" id="phone_number" name="phone_number" required>
+
+        <label for="gender">City:</label>
+        <select id="city" name="city" required>
+          <option value="">Select City</option>
+          <option value="Cairo">Cairo</option>
+          <option value="Alex">Alexandria</option>
+          <option value="Port Said">Port Said</option>
+          <option value="Suez">Suez</option>
+          <option value="Luxor">Luxor</option>
+          <option value="al-Mansura">al-Mansura</option>
+          <option value="Damietta">Damietta</option>
+          <option value="Kafr el-Sheikh">Kafr el-Sheikh</option>
+          <option value="Marsa Matruh">Marsa Matruh</option>
+          <option value="Aswan">Aswan</option>
+          <option value="Fayyum">Fayyum</option>
+          <option value="Menofia">Menofia</option>
+          
+        </select>
+        <label for="gender">University:</label>
+        <select id="university" name="university" required>
+          <option value="">Select University</option>
+          <option value="AUC">AUC</option>
+          <option value="ALEXU">ALEXU</option>
+          <option value="AUN">AUN</option>
+          <option value="ASWU">ASWU</option>
+          <option value="CU">CU</option>
+          <option value="KFS">KFS</option>
+          <option value="MANS">MANS</option>
+          <option value="PSU">PSU</option>
+          <option value="ZU">ZU</option>
+          <option value="Menofia">Mnf</option>
+        </select>
+        <label for="gender">College:</label>
+        <select id="college" name="college" required>
+          <option value="">Select College</option>
+          <option value="faculty of medicine">medicine</option>
+          <option value="College of Engineering">Engineering</option>
+          <option value="Arts">Arts</option>
+          <option value="Commerce">Commerce</option>
+          <option value="Science">Science</option>
+          <option value="Agriculture">Agriculture</option>
+          <option value="Pharmacy">Pharmacy</option>
+          <option value="Nursing">Nursing</option>
+          <option value="Finearts">Finearts</option>
+          <option value="Dentistry">Dentistry</option>
+          <option value="Tourism & Hotels">Tourism & Hotels</option>
+          <option value="Kindergarten">Kindergarten</option>
+          <option value="Faculty of Computing and Data Science">Faculty of Computing and Data Science</option>
+        </select>
+      
+        <label for="date_of_birth">Date of Birth:</label>
+        <input type="Date" id="date_of_birth" name="date_of_birth" required>
+      
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+
+        <label for="payment_method">payment_method:</label>
+        <select id="payment_method" name="payment_method" required>
+          <option value="">Select payment_method</option>
+          <option value="Vodafone Cash">Vodafone Cash</option>
+          <option value="Etisalat Cash">Etisalat Cash</option>
+          <option value="WE Pay">WE Pay</option>
+          <option value="Meeza">Meeza</option>
+         
+
+          
+        </select>
+      
+        <button type="submit" name="create_account">registration</button>
+      </form>
+          <!-- Copyright -->
+          <div class="text-center ">
+           
+           <h1>© Created by : Mohamed Elkouly  </h1>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        
+      </div>
+      <!-- End of .container -->
+
+</body>
+
+</html>
